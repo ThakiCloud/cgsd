@@ -1,0 +1,91 @@
+{
+  "budget": 95162,
+  "reps": 200,
+  "unit": 3914,
+  "calibration": {
+    "locale": "en",
+    "K": 8,
+    "budget": 95162,
+    "n_items": 3914,
+    "seeds": 3,
+    "gate": "verifier:map+tr",
+    "pass_rate": 0.4793,
+    "endpoint": "leaf_top1_full",
+    "constructor_sha": "9a34faa6d04f",
+    "signature": "5511e26fda73f25a"
+  },
+  "components": {
+    "E": {
+      "exceedance": {
+        "1": 0.94,
+        "2": 0.86,
+        "3": 0.76,
+        "5": 0.51
+      },
+      "delta": 0.0035769034236075594,
+      "delta_items": 13.999999999999986,
+      "delta_ci95": [
+        0.003321410321921292,
+        0.0043433827286663285
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.0002598263692049102,
+      "null_median": 0.0,
+      "sign": [
+        95,
+        93,
+        12
+      ],
+      "sign_p": 0.9418856184644895,
+      "n_upper_tail": 10
+    },
+    "S": {
+      "exceedance": {
+        "1": 0.905,
+        "2": 0.61,
+        "3": 0.415,
+        "5": 0.13
+      },
+      "delta": 0.0015329586101175408,
+      "delta_items": 6.000000000000054,
+      "delta_ci95": [
+        0.0012774655084312747,
+        0.002043944813490045
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.00017688829510170836,
+      "null_median": 0.0,
+      "sign": [
+        92,
+        89,
+        19
+      ],
+      "sign_p": 0.8818760916964352,
+      "n_upper_tail": 13
+    },
+    "I": {
+      "exceedance": {
+        "1": 0.905,
+        "2": 0.75,
+        "3": 0.565,
+        "5": 0.265
+      },
+      "delta": 0.0017884517118037803,
+      "delta_items": 6.999999999999996,
+      "delta_ci95": [
+        0.0015329586101175685,
+        0.0028104241185487877
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.00013644573489059677,
+      "null_median": 1.3877787807814457e-17,
+      "sign": [
+        100,
+        87,
+        13
+      ],
+      "sign_p": 0.3802509145487748,
+      "n_upper_tail": 10
+    }
+  }
+}

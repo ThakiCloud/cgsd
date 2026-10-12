@@ -1,0 +1,236 @@
+{
+  "N": 100,
+  "T": 3915,
+  "T_A": 3677,
+  "M_safe": 0.08,
+  "min_e_A": 0.6211977186311787,
+  "interior_B": 1989,
+  "tol": 0.005,
+  "ext_token_mass": 0.06079182630906769,
+  "ext_row_mass": 0.09,
+  "supports": {
+    "poly_derivative": {
+      "rows": 7,
+      "tokens": 188,
+      "e": 0.0,
+      "extinct": true
+    },
+    "poly_expand": {
+      "rows": 44,
+      "tokens": 1573,
+      "e": 1.0,
+      "extinct": false
+    },
+    "rational_calc": {
+      "rows": 2,
+      "tokens": 50,
+      "e": 0.0,
+      "extinct": true
+    },
+    "series_sum": {
+      "rows": 47,
+      "tokens": 2104,
+      "e": 0.6211977186311787,
+      "extinct": false
+    }
+  },
+  "four_arm_infeasible_at": [
+    [
+      0.001,
+      true
+    ],
+    [
+      0.01,
+      true
+    ],
+    [
+      0.05,
+      true
+    ],
+    [
+      0.1,
+      true
+    ],
+    [
+      0.3,
+      true
+    ],
+    [
+      0.54,
+      true
+    ]
+  ],
+  "G": {
+    "d00_all": {
+      "G": -3.054999999999989,
+      "Q": 12.99999999999999,
+      "tolB": 9.945,
+      "exact": true,
+      "q_by_support": {
+        "poly_derivative": 10.512643678160927,
+        "poly_expand": 0.1563218390805332,
+        "rational_calc": 1.402298850574713,
+        "series_sum": 0.928735632183816
+      }
+    },
+    "d00_A": {
+      "G": 8.944999999999887,
+      "Q": 1.0000000000001137,
+      "tolB": 9.945,
+      "exact": true,
+      "q_by_support": {
+        "poly_expand": 0.8830568398151399,
+        "series_sum": 0.11694316018497375
+      }
+    },
+    "d10_A": {
+      "G": 8.944999999999887,
+      "Q": 1.0000000000001137,
+      "tolB": 9.945,
+      "exact": true,
+      "q_by_support": {
+        "poly_expand": 0.8830568398151399,
+        "series_sum": 0.11694316018497375
+      }
+    },
+    "d01_A": {
+      "G": 8.944999999999887,
+      "Q": 1.0000000000001137,
+      "tolB": 9.945,
+      "exact": true,
+      "q_by_support": {
+        "poly_expand": 0.35312500000009095,
+        "series_sum": 0.6468750000000227
+      }
+    },
+    "d11": {
+      "G": 8.944999999999887,
+      "Q": 1.0000000000001137,
+      "tolB": 9.945,
+      "exact": true,
+      "q_by_support": {
+        "poly_derivative": 0.0,
+        "poly_expand": 0.35312500000009095,
+        "rational_calc": 0.0,
+        "series_sum": 0.6468750000000227
+      }
+    }
+  },
+  "budget_scan": {
+    "cap_mass": 2284,
+    "cap_margin": 1989,
+    "n_all": 139,
+    "n_margin": 54,
+    "bands_margin": [
+      [
+        1880,
+        1930
+      ],
+      [
+        1932,
+        1932
+      ],
+      [
+        1934,
+        1934
+      ],
+      [
+        1939,
+        1939
+      ]
+    ],
+    "bands_all": [
+      [
+        1880,
+        1930
+      ],
+      [
+        1932,
+        1932
+      ],
+      [
+        1934,
+        1934
+      ],
+      [
+        1939,
+        1939
+      ],
+      [
+        2145,
+        2175
+      ],
+      [
+        2190,
+        2243
+      ]
+    ],
+    "BT_margin": [
+      0.48020434227330777,
+      0.49527458492975734
+    ],
+    "n_attempted": 55,
+    "n_built": 49,
+    "build_failures": {
+      "packer": 5,
+      "granularity": 1
+    },
+    "build_at": {
+      "1880": "built",
+      "1881": "built",
+      "1882": "built",
+      "1883": "built",
+      "1884": "built",
+      "1885": "built",
+      "1886": "built",
+      "1887": "built",
+      "1888": "built",
+      "1889": "built",
+      "1890": "built",
+      "1891": "built",
+      "1892": "built",
+      "1893": "built",
+      "1894": "built",
+      "1895": "built",
+      "1896": "built",
+      "1897": "built",
+      "1898": "built",
+      "1899": "built",
+      "1900": "built",
+      "1901": "built",
+      "1902": "built",
+      "1903": "built",
+      "1904": "built",
+      "1905": "built",
+      "1906": "built",
+      "1907": "built",
+      "1908": "built",
+      "1909": "built",
+      "1910": "built",
+      "1911": "built",
+      "1912": "built",
+      "1913": "built",
+      "1914": "built",
+      "1915": "built",
+      "1916": "built",
+      "1917": "built",
+      "1918": "built",
+      "1919": "built",
+      "1920": "built",
+      "1921": "built",
+      "1922": "built",
+      "1923": "built",
+      "1924": "built",
+      "1925": "built",
+      "1926": "built",
+      "1927": "built",
+      "1928": "packer",
+      "1929": "packer",
+      "1930": "packer",
+      "1932": "packer",
+      "1934": "packer",
+      "1939": "built",
+      "1989": "granularity"
+    }
+  }
+}

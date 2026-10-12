@@ -1,0 +1,89 @@
+{
+  "budget": 55300,
+  "reps": 200,
+  "unit": 3914,
+  "calibration": {
+    "locale": "en",
+    "K": 8,
+    "budget": 55300,
+    "n_items": 3914,
+    "seeds": 5,
+    "endpoint": "leaf_top1_full",
+    "constructor_sha": "9a34faa6d04f",
+    "signature": "2e7317abf4681894"
+  },
+  "components": {
+    "E": {
+      "exceedance": {
+        "1": 0.945,
+        "2": 0.83,
+        "3": 0.73,
+        "5": 0.49
+      },
+      "delta": 0.0030659172202350538,
+      "delta_items": 12.0,
+      "delta_ci95": [
+        0.0025549310168625494,
+        0.003576903423607558
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.00020142487084566575,
+      "null_median": 0.0,
+      "sign": [
+        98,
+        91,
+        11
+      ],
+      "sign_p": 0.6626346634894795,
+      "n_upper_tail": 11
+    },
+    "S": {
+      "exceedance": {
+        "1": 0.84,
+        "2": 0.48,
+        "3": 0.18,
+        "5": 0.035
+      },
+      "delta": 0.00102197240674501,
+      "delta_items": 3.9999999999999685,
+      "delta_ci95": [
+        0.0010219724067450087,
+        0.0012774655084312747
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 7.949030487312e-05,
+      "null_median": 0.0,
+      "sign": [
+        83,
+        85,
+        32
+      ],
+      "sign_p": 0.9385334053887996,
+      "n_upper_tail": 10
+    },
+    "I": {
+      "exceedance": {
+        "1": 0.89,
+        "2": 0.575,
+        "3": 0.35,
+        "5": 0.125
+      },
+      "delta": 0.0015329586101175408,
+      "delta_items": 6.000000000000054,
+      "delta_ci95": [
+        0.0012774655084312747,
+        0.001788451711803779
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.00013963649621796483,
+      "null_median": -1.3877787807814457e-17,
+      "sign": [
+        87,
+        100,
+        13
+      ],
+      "sign_p": 0.3802509145487748,
+      "n_upper_tail": 11
+    }
+  }
+}

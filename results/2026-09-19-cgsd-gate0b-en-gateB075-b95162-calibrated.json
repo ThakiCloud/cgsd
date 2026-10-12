@@ -1,0 +1,91 @@
+{
+  "budget": 95162,
+  "reps": 200,
+  "unit": 3914,
+  "calibration": {
+    "locale": "en",
+    "K": 8,
+    "budget": 95162,
+    "n_items": 3914,
+    "seeds": 3,
+    "gate": "confidence>=0.75",
+    "pass_rate": 0.6028,
+    "endpoint": "leaf_top1_full",
+    "constructor_sha": "9a34faa6d04f",
+    "signature": "6e5248d753527af4"
+  },
+  "components": {
+    "E": {
+      "exceedance": {
+        "1": 0.905,
+        "2": 0.805,
+        "3": 0.7,
+        "5": 0.495
+      },
+      "delta": 0.0035896780786918658,
+      "delta_items": 14.049999999999962,
+      "delta_ci95": [
+        0.003321410321921292,
+        0.00408788962698009
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.00024816348223234924,
+      "null_median": 0.0002554931016862383,
+      "sign": [
+        102,
+        79,
+        19
+      ],
+      "sign_p": 0.1017329832180777,
+      "n_upper_tail": 10
+    },
+    "S": {
+      "exceedance": {
+        "1": 0.855,
+        "2": 0.63,
+        "3": 0.395,
+        "5": 0.11
+      },
+      "delta": 0.001532958610117513,
+      "delta_items": 5.999999999999945,
+      "delta_ci95": [
+        0.0012774655084312747,
+        0.0020439448134900173
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.0001531458958157696,
+      "null_median": 0.0,
+      "sign": [
+        81,
+        90,
+        29
+      ],
+      "sign_p": 0.5408115779969376,
+      "n_upper_tail": 11
+    },
+    "I": {
+      "exceedance": {
+        "1": 0.935,
+        "2": 0.73,
+        "3": 0.495,
+        "5": 0.275
+      },
+      "delta": 0.0020567194685743528,
+      "delta_items": 8.050000000000017,
+      "delta_ci95": [
+        0.001788451711803779,
+        0.0025549310168625494
+      ],
+      "delta_ci95_upper_identified": true,
+      "delta_boot_se": 0.00018630699748000868,
+      "null_median": -0.00012774655084313302,
+      "sign": [
+        87,
+        101,
+        12
+      ],
+      "sign_p": 0.3430902789249583,
+      "n_upper_tail": 10
+    }
+  }
+}

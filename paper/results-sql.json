@@ -1,0 +1,87 @@
+{
+  "power-wide": {
+    "N": 578,
+    "supports": 6,
+    "extinct": 0,
+    "T": 100986,
+    "min_e_A": 0.07043528098699889,
+    "cap_mass": 7112,
+    "cap_margin": 0,
+    "grid_step": 2,
+    "n_scanned": 3556,
+    "n_G_ok": 0,
+    "n_attempted": 0,
+    "n_built": 0,
+    "build_failures": {},
+    "BT_built": null
+  },
+  "ab-weak8b": {
+    "N": 134,
+    "supports": 4,
+    "extinct": 0,
+    "T": 21239,
+    "min_e_A": 0.19727739343896453,
+    "cap_mass": 4189,
+    "cap_margin": 2490,
+    "grid_step": 1,
+    "n_scanned": 4189,
+    "n_G_ok": 0,
+    "n_attempted": 0,
+    "n_built": 0,
+    "build_failures": {},
+    "BT_built": null
+  },
+  "gen-27b-2026-08-20": {
+    "N": 98,
+    "supports": 4,
+    "extinct": 0,
+    "T": 15150,
+    "min_e_A": 0.38352384706346077,
+    "cap_mass": 5810,
+    "cap_margin": 4598,
+    "grid_step": 2,
+    "n_scanned": 2905,
+    "n_G_ok": 0,
+    "n_attempted": 0,
+    "n_built": 0,
+    "build_failures": {},
+    "BT_built": null
+  },
+  "live-clean": {
+    "N": 99,
+    "supports": 4,
+    "extinct": 0,
+    "T": 15042,
+    "min_e_A": 0.7431359201270705,
+    "cap_mass": 11178,
+    "cap_margin": 9974,
+    "grid_step": 4,
+    "n_scanned": 2795,
+    "n_G_ok": 86,
+    "n_attempted": 86,
+    "n_built": 68,
+    "build_failures": {
+      "packer": 18
+    },
+    "BT_built": [
+      0.30853609892301553,
+      0.6428001595532509
+    ]
+  },
+  "live-scale": {
+    "N": 99,
+    "supports": 4,
+    "extinct": 0,
+    "T": 15125,
+    "min_e_A": 0.7660606060606061,
+    "cap_mass": 11586,
+    "cap_margin": 10376,
+    "grid_step": 4,
+    "n_scanned": 2897,
+    "n_G_ok": 0,
+    "n_attempted": 0,
+    "n_built": 0,
+    "build_failures": {},
+    "BT_built": null
+  }
+}
